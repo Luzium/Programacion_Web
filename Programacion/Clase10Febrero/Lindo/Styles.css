@@ -1,0 +1,29 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    border: solid red;
+    flex-wrap: wrap;
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    /* flex-direction: column;*/
+}
+.caja{
+    border: solid black;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}

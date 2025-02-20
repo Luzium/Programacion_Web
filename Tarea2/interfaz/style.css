@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;  
+}
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: grid;
+        gap: 5px;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .box {
+        padding: 10px;
+        background: #ddd;
+        border: 1px solid #000;
+    }
+
+
+    .modelo1 {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "nav"
+            "productos"
+            "servicios"
+            "enlaces"
+            "footer";
+    }
+    .header { grid-area: header; }
+    .nav { grid-area: nav; }
+    .productos { grid-area: productos; }
+    .servicios { grid-area: servicios; }
+    .footer { grid-area: footer; }
+    .enlaces { grid-area: enlaces; }
+
+    @media (min-width: 600px) {
+        .modelo2 {
+            grid-template-columns: 2fr 1fr;
+            grid-template-areas: 
+                "header  nav"
+                "productos productos"
+                "servicios servicios"
+                "footer enlaces";
+        }
+    }
+
+
+    @media (min-width: 900px) {
+        .modelo3 {
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-areas: 
+                "nav header header"
+                "nav productos enlaces"
+                "nav servicios enlaces"
+                "nav footer footer";
+        }
+    }

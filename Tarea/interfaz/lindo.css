@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+.container{
+display: flex;
+max-width: 900px;
+background: white;
+margin: auto;
+border-radius: 8px;
+overflow: hidden;
+}
+.sinderbar{
+    width: 20%;
+    background: whitesmoke;
+    padding: 2rem;
+    text-align: 8px;
+}
+.foto{
+    width: 100%;
+    border-radius: 8px;
+}
+.informacion{
+    margin-top: 2rem;
+    font-size: 1rem;
+}

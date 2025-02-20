@@ -1,0 +1,24 @@
+p{
+    background-color: green;
+    color: red;
+}
+.arriba{
+    background-color: yellow;
+}
+#unico{
+    background-color: blue;
+}
+#fotoPersonal {
+    margin: 30px;
+    border: solid red;
+    padding: 30px;
+}
+body{
+    background-color: azure
+
+}
+.boton {
+    border: outset;
+    background-color: gray;
+    width: 20;
+}
